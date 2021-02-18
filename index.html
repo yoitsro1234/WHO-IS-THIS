@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            who is this (YOITSRO1234'S FAMILY EDITION)
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+        <link rel="stylesheet" type="text/css" href="style.css">
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+      <script src="main.js"></script>
+    </head>
+    <body>
+        <center>
+        <h1 id="main_h1">WHO IS WHO? (YOITSRO1234 FAMILY EDITION)</h1>
+        <br>
+        <br>
+        <h3>This model is trained to recognise the following members : </h3>
+        <br>
+        <br>
+        <h4>Rohan</h4>
+        <h4>Janhavi</h4>
+        <br>
+        <label>Webcam View</label>
+        <div id="webcam-view"></div>
+        <br>
+        <div id="result"></div>
+        <br>
+        <br>
+        <button onclick="takeSnapshot()" id="snapButton">Take Snapshot</button>
+        <br>
+        <br>
+        <br>
+        <p id="result" style="font-size:22px;">Who is this? : <span id="result-name"></span></p>
+        <!--If you're seeing this, subscribe to the channel you find upon opening the second link in link.txt. It's my channel!-->
+        <p id="accuracy" style="font-size: 22px;">Accuracy : <span id="sccuracy-input"></span></p>
+        </center>
+    </body>
+</html>
